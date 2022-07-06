@@ -13,19 +13,18 @@ h1 {
 
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin: 150px;
+
 }
 
 .half-width {
     width: 100p%;
-    padding: :left 20%;
-
+    padding: :left 5%;
 }
 
 .half-width img {
-    width: 100%;
+    width: 100p%;
 }
 
 .link-button {
@@ -48,4 +47,28 @@ section {
 .Dream big {
     background-image: url(images/exp-bg.png);
 
+}
+
+.Experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.Experience-item-similer {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px;
+    border-left: 7px solid blue;
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
